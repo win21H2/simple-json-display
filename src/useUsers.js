@@ -1,7 +1,7 @@
 import useFetchData from './useFetchData'
  
 function Users() {
-    const { data } = useFetchData("https://api.github.com/users");
+  const { data } = useFetchData("https://api.github.com/users");
 
   return (
       <div>
